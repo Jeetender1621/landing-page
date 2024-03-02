@@ -133,6 +133,36 @@ main{
     height: 150px;
     width: 250px;
 }
+
+.call-to-action{
+  padding: 100px 20px;
+  background-color: rgb(199, 225, 225);
+  display: flex;
+  justify-content: center;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    padding: 40px 100px;
+    gap:30px;
+    border-radius: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+.cta-text{
+    color: #E5E7EB;
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+}
+.cta-text h3{
+    align-self: flex-start;
+}
+.cta-container .sign-up{
+    border: 2px solid #fff;
+}
+
 footer{
     background-color: #1F2937;
     text-align: center;
