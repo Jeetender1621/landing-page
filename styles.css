@@ -20,6 +20,7 @@ header{
     align-items: center;
     background-color: #1F2937;
     padding: 20px;
+    min-width: auto;
 }
 
 h1{
@@ -54,11 +55,11 @@ main{
 .hero{
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 100px 20px;
-    gap:30px
-
+    gap:30px;
+    min-width: auto;
 }
 
 .hero-intro{
@@ -98,7 +99,40 @@ main{
     text-decoration: none;
     color: #E5E7EB;
 }
+.info{
+    padding: 100px 20px;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+.info-header-text{
+    margin: 0 auto;
+}
 
+.info-img-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.info-img-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.info-text{
+    font-size: 18px;
+    color:#1F2937;
+    max-width: 70%;
+}
+.img-content{
+    height: 150px;
+    width: 250px;
+}
 footer{
     background-color: #1F2937;
     text-align: center;
